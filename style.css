@@ -1,0 +1,149 @@
+:root {
+    --twitter-blue: #1da1f2;
+    --light-blue: #d7f5f5;
+    --blue: #3180f5;
+    --green: #2ed8af;
+    --beige: #fbf8f3;
+    --dark-gray: #737373;
+    --lighter-gray: #929290;
+    --yellow: #ffad23;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--beige);
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    line-clamp: 3;
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    color: var(--lighter-gray);
+}
+
+.navbar-brand {
+    color: var(--blue);
+}
+
+.btn {
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.3rem;
+}
+
+.btn-primary {
+    background-color: var(--twitter-blue);
+    border: none;
+
+    transition: background-color 300ms ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #2ba9f7dc;
+}
+
+.hero-section h1 {
+    font-size: 3.3rem;
+    color: black;
+}
+
+.hero-section p {
+    font-weight: 500;
+}
+
+.btn-container a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.btn-container a i {
+    color: var(--blue);
+    -webkit-text-stroke: 1px;
+    width: 1rem;
+
+}
+
+/* profile icons */
+.hero-img {
+    height: 40rem;
+    /* width: 25rem; */
+}
+
+.hero-img-sm {
+    width: 100%;
+}
+
+.profile-icons img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: -1.5rem;
+}
+
+.profile-icons img:last-child {
+    margin-left: 0;
+}
+
+.hero-section span {
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.feedback-section {
+    background-color: var(--light-blue);
+}
+
+
+
+.tweet {
+    background-color: white;
+}
+
+
+.pricing-section {
+    background-color: white;
+}
+
+.pricing-section .card {
+    border-color: var(--yellow);
+    background-color: var(--beige);
+}
+
+.pricing-section p {
+    color: var(--lighter-gray);
+}
+
+.pricing-section h2 span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--lighter-gray);
+}
+
+.pricing-section p i {
+    color: var(--green);
+}
+
+footer {
+    background-color: var(--light-blue);
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-items {
+    font-size: 0.9rem;
+    text-wrap: nowrap;
+}
